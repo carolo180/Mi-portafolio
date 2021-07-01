@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Mulish&display=swap');
+
+body{background-image:url("../imagen/fon.jpg");
+    font-family:"mulish", sans serif;
+    color:#283071;
+    }
+h1{
+	font-family:"serif", inria serif;
+	color:#7C1A90;
+	text-align:center;
+	text-transform: capitalize;
+   }
+   p{
+     text-align: justify;
+    }
+ h2{
+ 	font-family:"serif", inria serif;
+ 	text-align:left;
+ 	color:#7C1A90;
+    }
+ ul{
+	list-style-image:url(../imagen/flor.png);
+	list-style-position: inside;
+	}
+  a:link{
+   	  color: #BF06BA;
+   	  font-weight:(3);
+   	  text-decoration:none; 
+   }   
+   a:visited{
+   	   color:#0A7FAB;
+   	   font-weight:(3);
+   	   text-decoration:none; 
+
+    }
+   a:hover{
+   	  color:#0A7FAB;
+   	  font-weight:(3);
+   	  text-decoration:none; 
+   } 	
+   img{
+	display:block; margin:auto;
+   }
+   .tabla{
+   	   margin-left:550px;   
+   }
+   table{
+	  width:500px;
+	  border:4px dashed #BF06BA;
+	  border-collapse: collapse; 
+
+
+      }
+     th{
+     	background-color:#BF06BA;
+     	color:white;  
+     }
+    
+     td{
+     	text-align:center;
+     	border-color:#BF06BA;
+	    border-style:dashed;
+	   
+     }
+     #titulo1{
+     	text-align: center;
+     	text-transform: capitalize;
+     }

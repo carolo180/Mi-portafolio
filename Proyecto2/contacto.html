@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="es-ES">
+<head>
+<meta charset="utf-8">
+<title>Contacto</title>
+<link rel="stylesheet"type="text/css" href="css/etiqueta.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+	<!--inicio de cabecera-->
+	<header>
+		<div class="logo">
+			<img src="imagen/logotipo.png">
+			
+			<div class="click">
+				
+				<button class="bot1"><a href="#">Iniciar sesion</a></button>
+				<button class="bot2"><a href="#">Registrarse</a></button>
+			</div>
+	  </div>
+	</header>
+	<!--fin de cabecera-->
+	<!-- inicio barra de navegacion-->
+	<nav>
+		<ul class="menu">
+			<li><a href="practicamaqueta.html"><i class="fa fa-home"></i> Inicio</a></li>
+			<li><a href="quienes somos.html"><i class="fa fa-handshake-o"></i> Quienes somos</a></li>
+			<li><a href="#"><i class="fa fa-puzzle-piece"></i> Portafolio</a>
+				<ul class="submenu">
+					<li><a href="servicios.html"> Servicios</a></li>
+					<li><a href="productos.html"> Productos</a></li>
+				</ul>
+			</li>
+			<li><a href="contacto.html"><i class="fa fa-envelope-o"></i> Contactenos</a></li>
+         </ul>
+	</nav>
+	<section id="mapa">
+		<article>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.056880467625!2d-74.1058766851793!3d4.583811343936192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f98de8b2cdf01%3A0xcb94d4852598b934!2sKuepa%20-%20Restrepo!5e0!3m2!1ses!2sco!4v1618192554304!5m2!1ses!2sco"></iframe>
+		
+		<article id="contact">
+			<h3>¿Como encontrarnos?</h3><br>
+			<p>
+			<i class="fa fa-map-marker"></i><span class="neg"> Direccion:</span> Cra 123 # 4-56 Bogota D.C, Cundinamarca <br><br>
+			<i class="fa fa-phone"></i><span class="neg"> Telefono:</span> 311 222 33 44 <br><br>
+			<i class="fa fa-envelope"></i><span class="neg"> Email:</span> Correo@gmail.com
+			</p>
+			</article>
+		</article>
+	</section>
+	<div id="formu">
+		
+		<h1><div class="tit">Envienos su mensaje</div></h1>
+		<hr>
+			  <p>Diligencie la siguiente informacion:</p>
+           <form name="inscripcion" method="get" action= "url">
+                                                
+                <label for="nombres"> Nombres:</label>
+                <input type="text" id="nombres" name="nombres" size="50" maxlength="50" required >
+
+                <label for="correo"> Email</label>
+                <input type="email" id="correo" name="correo" size="50" maxlength="80">
+              
+                <label for="telefono"> Telefóno de contacto:</label>
+                <input type="number" id="telefono" name="telefono" size="50" maxlength="20"  required >
+
+                
+                <label for="mensaje"> Asunto:</label>
+                <input type="text" id="asunto" name="asunto" size="50" maxlength="50" required >
+
+                <label for="mensaje"> Mensaje*</label>
+                <textarea rows="5"></textarea><br>
+
+                <input type="submit" value="Enviar Mensaje" />
+           </form>
+        
+   </div>
+   <footer>
+		&copy;Hecho by me- all rights reserved
+	</footer>
+	  
+	</body>
+	</html>

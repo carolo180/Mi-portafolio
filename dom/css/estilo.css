@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+body{font-family:'Raleway', sans-serif;
+     font-weight: bold;
+     color:#133292; 
+}
+h4{
+	font-weight: bold;
+	
+}
+#menus{
+	background-image:url(../img/h.jpg);
+
+}
+
+#menu{
+	background-image:url(../img/fondo2.jpg);
+	}
+
+.card{
+	background-color: rgba(117,45,150,0.3);
+	text-align: center;
+
+
+}
+
+.btn-primary{
+	background-color: #5E2F78;
+	border: 2px solid #335CDA; 
+ 
+}
+
+img{
+	width: 200px;
+	margin: 40px;
+}
+.success {
+    border: 2px solid lime;
+    min-height: 10px;
+    visibility: visible;
+ }
+ 
+.error {
+    border: 2px solid red;
+     min-height: 10px;
+    
+}
+input{
+	outline: none;
+	margin-top: 5px;
+}
+
+
+.feedback{
+	color: blue;
+	visibility: hidden;
+	opacity: 0;	
+}
+
+/*	
+
+ h1{	
+ 	text-align: center;
+ 	font-weight: bold;
+ 	margin-top: 30px;
+ 	text-decoration: underline;
+ 	margin-bottom: 30px;
+
+}
+
+
+
+
+.modal-header{
+    background-image:url(../img/fondo2.jpg);
+}
+
+.modal-body{
+	background-color: rgba(117,45,150,0.3);
+}
+
+
+img{
+	width: 150px;
+}
+
+
+
+
+.card-header{
+    background-image:url(../img/fondo2.jpg);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#car{
+	margin: auto;
+	max-height: 500px;
+}
+
+ body{
+ 	background-image:url(../img/rosa.jpg);
+ }
+
+
+
+ #mo img{
+ 	width: 220px;
+ 	margin-left: 10px;
+ 	
+
+ }
+
+
+h5{
+	font-weight: bold;
+}
+
+.btn-secondary{
+    background-color: #335CDA;
+	border: 2px solid #5E2F78; 
+}
+*/

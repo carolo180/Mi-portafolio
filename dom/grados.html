@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+	<meta charset="utf-8">
+	<title>dom java</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet"type="text/css" href="css/estilo.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="ejercicios col-md-4" id="menu" > 
+				
+				   <div class="card" style="width: 18rem; margin: 300px auto;" id="fon">
+				   	<div>
+				        <img src="img/f.png" class="img-fluid">
+			    	
+				    <div class="d-grid gap-2">
+					   <a class="btn btn-primary" href="ejercicios.html" role="button">FUNCIONES DE TEXTO.</a>
+					    <a class="btn btn-primary" href="minutos.html" role="button">CABINA TELEFONICA.</a>
+					    <a class="btn btn-primary" href="grados.html" role="button">CONVERSOR DE TEMPERATURA.</a>
+					    <a class="btn btn-primary" href="triangulo.html" role="button">TRIANGULOS.</a>
+					    <a class="btn btn-primary" href="calculadora.html" role="button">CALCULADORA.</a>
+				     </div>
+			       </div>
+		      
+			</div>
+		   </div>	
+	        
+           <div class="contenido col-md-8" id="menus">
+     
+	          <div class="card" style="width: 20rem; margin: 250px auto;">
+	
+	          <div class="card-body" id="for">
+		
+		            <h4 class="card-title">CONVERSOR DE TEMPERATURA <i class="fa fa-thermometer-half" aria-hidden="true"></i> </h4> 
+		
+		
+		           
+	          <form id="form">
+                   <div class="mb-3">
+                     
+                            	<label for="grados" class="form-label"> Escriba los grados a convertir</label>
+                            	<input type="text" class="form-control" id="grados">
+                   </div>
+
+                         <div class="mb-3">
+                            <select class="form-select" id="option1">
+                               <option selected value="0">De:</option>
+                               <option value="opcion1">Celcios</option>
+                               <option value="opcion2">Fahrenheit</option>
+                               <option value="opcion3">Kelvin</option>
+                               
+                            </select>
+                             
+                         </div>
+                          <div class="mb-3">
+                            <select class="form-select" id="option2">
+                               <option selected value="0">A:</option>
+                               <option value="opcion1">Celcios</option>
+                               <option value="opcion2">Fahrenheit</option>
+                               <option value="opcion3">Kelvin</option>
+                               
+                            </select>
+                             
+                         </div>
+                         
+
+                           <div class="d-grid gap-2">
+                              <button class="btn btn-primary" type="submit" onclick="converse()">CALCULAR</button>
+                           </div>
+              </form>
+
+              </div>
+           </div>
+       </div>
+ </div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/dom1.js"></script>
+</body>
+</html>

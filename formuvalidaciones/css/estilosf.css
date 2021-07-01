@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+
+body{
+	background-image:url(../img/rosa.jpg);
+}
+
+.card{
+	background-image:url(../img/captura.jpg);
+	min-width:600px;
+	width: 100%;	
+	min-height:500px;
+	height:100%;
+
+}
+
+h1{
+	margin-left:100px;
+    color:#EEA9E9;
+    text-decoration: underline;
+}
+
+
+.success {
+    border: 2px solid lime;
+    min-height: 10px;
+    visibility: visible;
+ }
+ 
+.error {
+    border: 2px solid red;
+     min-height: 10px;
+    
+}
+
+#secfor{
+  margin-left:140px;
+  max-width: 300px;
+}
+
+label{
+	color: #00FFFF;
+}
+#correo{
+	margin-left: 15px;
+}
+.feedback{
+	color: #FBEBFF;
+	visibility: hidden;
+	opacity: 0;	
+	margin-left: 150px;
+	text-decoration: underline;
+}
+ #sig1{
+ 	margin-top: 8px;
+ 	margin-left: 10px;
+ }
+ 
+ #ras{
+    margin-top: 20px;
+    color: white;
+  }
+ #sig1{
+ 	
+ 	margin-top: 20px;
+ 	margin-left: 10px;
+ }
+ #secfor{
+ 	margin-left:1px;
+}
+
+ #boton{
+ 	max-width: 100px;
+ 	margin-left: 180px;
+ 	background-color: #00FFFF;
+ 	color: purple;
+ 	margin-top: 20px;
+ }
+#campoAre{
+	min-width:600px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+ input[type=text]{
+	outline: none;
+	margin-top: 10px;
+	padding-right: 30px;
+	
+}
+
+
+input[type=text],input[type=radio],select,textarea{
+	outline: none;
+	margin-top: 10px;
+	padding-right: 30px;
+	
+}
+
+input[type=text]:focus,input[type=radio]:focus,select:focus,textarea:focus{
+	outline: none;
+	margin-top: 10px;
+	padding-right: 30px;
+	box-shadow: 0px 0px 18px #FAFA06; 
+}
+
+input:invalid{
+	box-shadow: 0px 0px 5px #FAFA06;
+}
+
+input:focus:invalid{
+	box-shadow: none;
+}

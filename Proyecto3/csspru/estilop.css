@@ -1,0 +1,450 @@
+@font-face{
+	font-family:"Comic Boys";
+	src: url("../fonts/Comic Boys.ttf") format("truetype");
+	font-style: normal;
+	font-weight: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+
+*{
+	margin:0;
+	border:0;
+	padding:0;
+	list-style:none;
+	box-sizing: border-box;
+}
+ 
+.contenedor{
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 30% 70%;
+
+}
+
+#n{
+	background-image:url("../img/fondo4.jpg");
+	background-attachment: fixed;
+	
+}
+
+#primera{
+	margin-left: 80px;
+	margin-bottom: 80px;
+}
+
+#primera img{
+	float:left;
+	display: block;
+	border-radius: 100%;
+	margin-left: 110px;
+	margin-top: 100PX;
+}
+#segunda {
+	float: left; 
+	display: block;
+	margin-top: 50PX;
+	width: 100%;
+	margin-left: 80px;
+
+}
+#segunda img{
+	margin-left: 120px;
+	border-radius: 100%;
+	padding-top: 20px;
+	line-height: 50px;
+}
+
+#pboton {
+	max-width: 200px;
+	min-height: 80px;
+    background:linear-gradient(#8F5FE2,#461C8D);
+    border-radius: 10px;
+    margin-left:260px;
+    margin-right:140px;
+    font-family:'Spicy Rice', cursive;
+    margin-top: 30px;
+    
+}
+#pboton a {
+	font-size: 1.7rem;
+    text-decoration: none;
+    color: white;
+}
+#pboton a:hover {
+	color: #E745E0;
+}
+
+
+#tercera{
+	float: left; 
+	display: block;
+	margin-left: 80px;
+	margin-top:50PX;
+
+}
+ #tercera img{
+ 	margin-left: 105px;
+ 	border-radius: 100%;
+ 	
+}
+
+#b1{
+	background-image:url("../img/fo.jpg"); 
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	font-family:"Comic Boys";
+	
+}
+
+#icon img{
+     margin-top: 50px;
+     margin-left: 170px;
+}
+
+#c{
+	min-width: 1000px;
+}
+
+#c h1{
+	color: white;
+	font-size: 4rem;
+	margin-left: 200px;
+	margin-top: 80px;
+}
+
+#cero{
+	margin-top: 30px;
+	padding-left: 100px;
+	min-height: 500px;
+	height: 100%;
+	max-width: 500px;
+	width: 100%;
+}
+#boti{
+	margin-top: 60px;
+	margin-left: 100px;
+}
+
+button{
+		
+	background:linear-gradient(#8F5FE2,#461C8D);
+	margin-bottom: 50px;
+	color: white;
+	min-height: 70px;
+	width:80%;
+	border-radius: 10%;
+	
+	font-family:'Spicy Rice', cursive;
+	font-size: 20px;
+
+}
+button a{
+	font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+
+}
+
+button a:hover{
+    color: #E745E0;
+}
+
+
+#cua{
+	background-color: rgba(142, 88, 224, 0.4);
+	max-width: 530PX;
+	min-height: 300px;
+	margin-left: 90px;
+	margin-top: 50px;
+	border-radius: 5%;
+	border:3px solid #7704E9;
+	color: white;
+	padding-top:50px;
+	font-size:2rem;  
+ }
+
+#b2{
+	background-image:url("../img/fondo.jpg"); 
+	background-size: 100% 100%;
+	background-attachment:fixed;
+	/*position: absolute;*/
+	font-family:"Comic Boys";
+	
+}
+
+#sec1{
+	max-height:240px;
+	height: 100%;
+}
+
+#negro{
+	
+	background-color: rgba(0, 0, 0, 0.6);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	width: 90%;
+}
+#negro img{
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+#icon1{
+	background-color: rgba(0, 0, 0, 0.5);
+	max-width: 350px;
+	width: 100%;
+	max-height: 300px;
+	min-height: 235px;
+	height: 100%;
+	text-decoration: none;
+
+}
+#icon1 img{
+     margin-top:80px;
+     margin-left: 140px;
+     width: 100px;
+}
+
+#tit1{
+	padding-left: 100px;
+	max-width:900px;
+	width: 100%;
+	max-height: 150px;
+	height: 100%;
+	margin-top:80px;
+    color:white;
+     
+}
+#tit1 h1{
+    font-size: 4rem;
+    padding-left: 190px;
+
+}
+#tit2{
+	padding-left: 120px;
+	max-width:900px;
+	width: 100%;
+	max-height: 150px;
+	height: 100%;
+	margin-top:80px;
+    color:white;
+     
+}
+#tit2 h1{
+    font-size: 3.7rem;
+    padding-left: 100px;
+ 
+
+}
+#desple1{
+	margin-left: 260px;
+	max-height: 60px;
+	height: 100%;
+	max-width: 600px;
+}
+
+
+select{
+	background-color: #F3EAEA;
+	min-height: 2.5rem;
+	height: 100%;
+	border-radius:5px;
+	margin: 40px;
+	box-shadow: 5px 8px 3px #000000;
+	font-weight:500;
+	font-size: 35px;
+	font-family:"Comic Boys";
+	
+}
+
+#pri{
+	margin-left:40px;
+	
+}
+
+#pri input{
+	margin-left: 370px;
+}
+
+#cua2{
+	background:linear-gradient(to left top, rgba(240, 128, 128,0.3),rgba(240, 128, 128,0.8));
+	max-width: 450PX;
+	width: 100%;
+	min-height:250px;
+	height: 100%;
+	border-radius: 5%;
+	padding-top: 20px;
+	margin-top: 20px;
+	margin-left: 200px;
+	
+}
+
+#parra{
+  color:#ba006b;
+  text-align: center;
+  line-height:100px;
+  margin: 5px;
+  min-height: 50px;
+  visibility: hidden;
+  opacity: 0;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+ #parra img{
+ width: 50px;
+
+}
+
+#pri1 input{
+	margin-left:330px;
+}
+#cua1{
+	background:linear-gradient(to left top, rgba(240, 128, 128,0.3),rgba(240, 128, 128,0.8));
+	max-width:550PX;
+	width: 100%;
+	min-height:300px;
+	height: 100%;
+	border-radius: 5%;
+	padding-top: 20px;
+	margin-left:100px;
+	
+	
+}
+#parra1{
+  color: #ba006b;
+  text-align: justify;
+  margin: 5px;
+  min-height: 50px;
+  visibility: hidden;
+  opacity: 0;
+  font-weight: 500;
+  font-size: 33px;
+}
+
+#parra1 h1{
+	color:#94218A;
+
+}
+
+#sec3{
+	max-height:120px;
+	height: 100%;
+	
+}
+#negro2{
+	
+	padding-left: 100px;
+	background-color: rgba(0, 0, 0, 0.6);
+	max-width: 350px;
+	width: 100%;
+	min-height: 700px;
+	height: 100%;
+	margin-top:44px;
+
+}
+#cartas{
+	max-width: 1000px;
+    width: 100%;
+	margin-bottom: 120px;
+	height:600px; 
+		
+}
+#gran h1{
+	padding-left: 170px;
+	margin-top: 60px;
+	font-size: 70px;
+	padding-bottom: 20px;
+	color:white;
+
+}
+ #prir1 input{
+   display:inline-block;
+   margin-left: 100px;
+   margin-top: 15px;
+
+ }
+
+ #prir2{
+ 	display: flex;
+ 	max-width:610px;
+ 	width: 100%;
+ 	justify-content: space-between; 
+ 	margin-left: 110px;
+ 	padding-left:15px; 
+ 	line-height: 10px;
+ 	padding-bottom: 5px;
+ }
+
+
+ .new{
+	background-image:url("../img/f6.jpg"); 
+	max-height: 500px;
+	height: 100%;
+	max-width: 800px;
+	width: 100%;
+	padding-top: 5px;
+	margin-left: 80px;
+	padding-left: 10px;
+	margin-top: 70px;
+
+
+}
+
+.b{
+	background:linear-gradient(to left top, rgba(240, 128, 128,0.3),rgba(240, 128, 128,0.8));
+	max-width:600PX;
+	width: 100%;
+	max-height:400px;
+	height: 100%;
+	border-radius: 5%;
+	margin-left:100px;
+	color:black;
+	font-size: 35px;
+	padding-bottom: 20px;
+
+}
+
+.b img{
+	width: 50px;
+}
+.b h1{
+	color:#8A107F;
+}
+
+
+#volver{
+	margin-left: 650px;
+	visibility:hidden;
+	
+}
+
+a{
+	font-size: 2.2rem;
+	color: #45D8D8;
+}
+#cartas h1{
+	margin-left: 60px;
+}
+
+#cartas li >a{
+	color: black;
+
+}
+#cartas li >a:hover{
+    color: #5ADFDF;
+}
+
+#prir3{
+ 	display: flex;
+ 	max-width:680px;
+ 	width: 100%;
+ 	justify-content: space-between; 
+ 	margin-left: 100px;
+ 	padding-right:80px;
+    line-height: 10px;
+  }

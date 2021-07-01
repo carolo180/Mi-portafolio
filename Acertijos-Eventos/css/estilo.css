@@ -1,0 +1,199 @@
+@font-face{
+	font-family: "Roboto";
+	src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	border:0; 
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(../img/spiral.jpg);
+	font-family: "Roboto";
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	position: absolute;
+}
+
+
+h1{
+	font-family: 'Itim', cursive;
+	text-align: center;
+	color: #1FBFB7;
+	margin-bottom: 10px;
+	font-size: 2rem;
+}
+
+p{
+	text-align: justify;
+	color: white;
+}
+
+#primera{
+	display: flex;
+	flex-flow: row-wrap;
+	justify-content: space-evenly;
+}
+
+.caja1{
+	background-color: rgba(0, 0, 0, 0.4);
+	min-height: 400px;
+	height: 100%;
+	min-width: 500px;
+	width: 100%;
+	margin:100px 100px;
+	padding: 30px;
+	text-align: center;
+	border: 5px solid black;
+	border-radius: 10px;
+
+	
+}
+
+select{
+	background-color: #c05cfa;
+	min-height: 2.5rem;
+	height: 100%;
+	border-radius:5px;
+	margin: 10px;
+	box-shadow: 4px 3px 3px #000000;
+	font-weight: 600;
+}
+ #correcto{
+ 	background-color: #ffffff;
+ 	border-radius: 5px;
+ 	padding: 30px;
+ 	max-width: 100%;
+ 	width: 100%;
+ 	max-height: 5rem;
+ 	min-height: 10rem;
+ 	height: 100%;
+ 	visibility: hidden;
+ 	opacity: 0;
+ 	text-align: center;
+ 	margin-top: 50px;
+ }
+
+ #correcto p{
+  color: blue;
+  text-align: center;
+  line-height: 55px;
+  margin: 5px;
+  min-height: 50px;
+
+ }
+
+ #correcto img{
+ 	width:30px;
+
+ }
+
+ h3, h2{
+ 	font-family: 'Itim', cursive;
+	text-align: center;
+	color: #1FBFB7;
+	margin-bottom: 10px;
+	margin-top: 10px;
+ }
+
+ #bot input{
+ 	margin-left: 10px;
+ }
+
+ #acertijo{
+ 	background-color: #ffffff;
+ 	border-radius: 5px;
+ 	padding: 30px;
+ 	max-width: 100%;
+ 	width: 100%;
+ 	max-height: 6rem;
+ 	min-height: 11rem;
+ 	height: 100%;
+ 	visibility: hidden;
+ 	opacity: 0;
+ 	text-align: center;
+ 	margin-top: 50px;
+
+ }
+ #acertijo p{
+  color: blue;
+  text-align: center;
+  line-height: 55px;
+  margin: 5px;
+  min-height: 50px;
+
+ }
+
+ #acertijo img{
+ 	width:30px;
+
+ }
+
+
+ .prueba{
+ 	background-color: #ffffff;
+ 	border-radius: 5px;
+ 	padding: 30px;
+ 	max-width: 100%;
+ 	width: 100%;
+ 	max-height: 6rem;
+ 	min-height: 11rem;
+ 	height: 100%;
+ 	visibility: visible;
+ 	opacity: 1;
+ 	text-align: center;
+ 	margin-top: 50px;
+ 	border:8px solid  #1FBFB7;
+
+ }
+
+ .prueba p{
+ 	color: blue;
+ 	text-align: center;
+ }
+
+ .prueba img{
+ 	width: 50px;
+ }
+ #bota{
+ 	color: white;
+ }
+ #bota input{
+ 	margin-left:30px;
+ 	margin-top: 5px;
+
+ }
+
+
+.pro{
+ 	background-color: #ffffff;
+ 	border-radius: 5px;
+ 	padding: 30px;
+ 	max-width: 100%;
+ 	width: 100%;
+ 	max-height: 6rem;
+ 	min-height: 11rem;
+ 	height: 100%;
+ 	visibility: visible;
+ 	opacity: 1;
+ 	text-align: center;
+ 	margin-top: 50px;
+ 	border:8px solid  #1FBFB7;
+
+ }
+
+.pro p{
+	color: blue;
+ 	text-align: center;
+ 	font-weight: bold;
+ }
+
+.pro img{
+ 	width: 50px;
+ }
